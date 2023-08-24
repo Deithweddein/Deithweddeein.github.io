@@ -1,0 +1,99 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+/* Body Content */
+
+body
+{
+    background-color: #110718;
+    color: #E41C49;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Body Content End */
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 50px;
+    
+    
+}
+
+.container h1
+{
+    writing-mode:vertical-rl;
+}
+
+.page
+{
+    background: #1b141f;
+    width: 970px;
+    height: 925px;
+    border-radius: 15px;
+    
+    transform: 3.0s;
+    transition-duration: 0.3s;
+}
+
+.page:hover
+{
+    box-shadow: 0px 5px 15px #E41C49;
+}
+
+.python i
+{
+    font-size: 150px;
+    margin-top: -150px;
+    float: left;
+}
+
+.javascript i 
+{
+    font-size: 150px;
+    margin-top: -160px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+.txt1
+{
+    margin-top: 180px;
+}
+
+.txt2
+
+{
+    margin-top: 190px;
+    margin-right: 50px;
+}
+
+.page .fa-brands fa-js
+{
+    margin-left: 150px;
+}
+
+.page a
+{
+    font-size: 24px;
+}
+
+/* media content  */
+
+@media (max-width: 700px) 
+{
+    .page{
+        height: 1950px;
+    }
+}

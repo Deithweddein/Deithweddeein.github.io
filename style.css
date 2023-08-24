@@ -1,0 +1,125 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+/* Body Content */
+
+body
+{
+    background-color: #110718;
+    color: #E41C49;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Body Content End */
+
+/* Card Content */
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.card
+{
+    background: #1b141f;
+    width: 270px;
+    height: 425px;
+    margin: 10px;
+    border-radius: 15px; 
+
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.card:hover
+{
+    transform: translateY(-10px);
+}
+
+.card-image
+{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    display: flex;
+    border-radius: 15px;
+}
+
+.forest-1
+{
+    background-image: url('https://orig00.deviantart.net/cabc/f/2013/356/c/4/red_black_forest_by_lillianevill-d6yxbj6.jpg');
+
+}
+
+.forest-2
+{
+    background-image: url('https://www.itl.cat/pngfile/big/105-1055791_red-and-black-forest.jpg');
+}
+
+.forest-3
+{
+    background-image: url('https://www.teahub.io/photos/full/151-1511892_red-and-black-forest.jpg');
+}
+
+.card h2 
+{
+    padding: 10px;
+    text-align: center;
+}
+
+.card a
+{
+    background-color: rgba(225,27,69, 10%);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #E41C49;
+    border: 5px solid #E41C49;
+    border-radius: 5px;
+
+
+      
+    transition: 0.5s;
+}
+
+
+.card a:hover
+{
+
+    box-shadow: 0px 5px 15px #E41C49;
+}
+/* Card Content End */
+
+
+
+
+
+/* Media properties */
+
+@media (max-width: 660px) 
+{
+    .container
+    {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+
+/* Media Properties End */
